@@ -101,6 +101,6 @@ remove(subjectData, subjectDataTest, subjectDataTrain,
        activity, act, actTest, actTrain, actLabels)
        
 # save the datasets to disk
-write.csv2(data,'data.csv',row.names=FALSE)
-write.csv2(dataAvg,'dataAvg.csv',row.names=FALSE)
+write.csv(data,'data.txt',row.names=FALSE)
+write.csv(dataAvg,'dataAvg.txt',row.names=FALSE)
 ```
