@@ -8,7 +8,7 @@ The project is composed of the files
 - data.csv: file with the tidy data required for this project
 - dataAvg.csv: file with the average of the variables of the file data.csv,
 grouped by subject and activity
-- cleanData.R: file responsible for creating the two "csv" files with the tidy 
+- run_analysis.R: file responsible for creating the two "csv" files with the tidy 
 data required for this project
 - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip: zip with several files with raw data used in this project:
   - activity_labels.txt: maps the activities IDs with human readable names
@@ -25,7 +25,7 @@ data required for this project
       - train/X_train.txt: the actual measurements
       - train/Y_train.txt: the activity code for that group of measurements
 
-The cleanData.R file uses a series of "read.table" commands to load the several 
+The run_analysis.R file uses a series of "read.table" commands to load the several 
 files with raw data.
 
 Bellow is the sequence of commands to get activity data for test and train
